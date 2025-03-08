@@ -1,0 +1,341 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+@keyframes colorChange{
+
+0%{
+    background-color: blue;
+}
+
+50%{
+    background-color: rgb(0, 255, 145);
+}
+
+75%{
+    background-color: rgb(97, 39, 41);
+}
+
+100%{
+    background-color: blue;
+}
+
+
+}
+
+header{
+position: fixed;
+z-index: 1;
+    animation: colorChange 3s infinite;
+    
+color: aliceblue;
+
+ background-color: rgb(3, 76, 52);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+header p{
+
+    font-weight: 900;
+    font-size: 1.5rem;
+    display: flex;
+    letter-spacing: 2px;
+}
+
+
+
+header img{
+
+    width: 40%;
+    height: 60px;
+}
+
+
+.menu{
+
+    padding: 10px;
+    color: aliceblue;
+    background-size: cover;
+    height: 90vh;
+background-image: linear-gradient(45deg, rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(images/m.jpg);
+    
+}
+
+
+
+
+nav ul{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    
+    
+}
+
+nav ul li a {
+    color: aliceblue;
+    align-self: center;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+
+}
+
+nav ul li a:hover{
+    color: aquamarine;
+    border-bottom: 4px solid rgb(0, 255, 145);
+}
+
+
+
+
+.menu .moi{
+
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    top: 60%;
+}
+
+.moi p{
+
+    font-size: 1.5rem;
+position: relative;
+left: 1rem;
+display: flex;
+justify-content: center;
+}
+
+.moi h1{
+
+    display: flex;
+    justify-content: center;
+    color: rgb(14, 255, 175);
+    font-size: 200%;
+}
+
+.btn{
+
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    
+    
+}
+
+
+#btn2 a{
+    
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+    
+
+}
+#btn1{
+    background-color: transparent;
+    padding: 10px;
+    width: 40%;
+    border: 2px solid hwb(160 50% 0%) ;
+    
+
+}
+
+#btn2{
+    background-color: transparent;
+    border: 2px solid hwb(160 50% 0%) ;
+    padding: 10px;
+    width: 40%;
+    animation: colorChange 8s infinite;
+
+}
+
+
+
+#btn1 a{
+    
+
+    align-self: center;
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+    
+
+}
+
+.Cv{
+    align-items: center;
+
+    position: relative;
+    top: 6vh;
+    display: flex;
+    justify-content:center;
+    margin-left: 20px;
+    gap: 20px;
+    flex-direction: column;
+    
+
+
+}
+
+.Cv h1{
+color: aliceblue;
+align-self: center;
+font-size: 30px;
+font-weight: bold;
+
+
+}
+
+#cs{
+    position: relative;
+    right: 4vh;
+}
+
+#ph{
+    position: relative;
+    right: 4vh;
+}
+.html{
+    background-color: rgb(206, 216, 216);
+    padding: 10px;
+    width: 80%;
+display: flex;
+justify-content: center;
+animation: colorChange 15s infinite;
+}
+
+.html i{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    right: 10vh;
+    font-size: 2rem;
+   
+    
+}
+
+#Js{
+    position: relative;
+    font-size: 300%;
+    color: rgb(168, 95, 0);
+    margin-left: 10px;
+
+}
+
+#Python{
+    position: relative;
+    font-size: 300%;
+    color:rgb(199, 10, 10);
+}
+
+
+#html{
+    position: relative;
+    font-size: 300%;
+    color:rgb(10, 199, 60);
+    margin-right: 30px;
+}
+    #css{
+        position: relative;
+    font-size: 300%;
+    color:rgb(155, 199, 10);
+   margin-right: 70px;
+    }
+
+#php{
+    position: relative;
+    font-size: 300%;
+    color:rgb(45, 5, 247);
+    margin-right: 40px;
+}
+.Contact{
+    /* background-color: rgb(118, 122, 125); */
+    height: 15vh;
+    position: relative;
+    top: 9vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+
+}
+
+.Contact h3{
+    color: rgb(5, 5, 6);
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.Contact p{
+
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    border-top: 4px solid royalblue;
+    
+}
+
+iframe{
+    width: 100%;
+    height: 30vh;
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+.iframe h2{
+    color: rgb(11, 101, 101);
+    font-weight: bold;
+    position: relative;
+    top: 2vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.iframe{
+    position: relative;
+    top: 12vh;
+}
+
+.Info{
+    background-color: aliceblue;
+}
+
+.Reseaux{
+    position: relative;
+    top: 12vh;
+    display: flex;
+    justify-content: center;
+}
+
+.Reseaux{
+    font-size: 1.5rem;
+    gap: 20px;
+}
+
+.fa-facebook{
+    color: rgb(0, 0, 255);
+}
+
+.fa-youtube{
+    color: rgb(255, 0, 0);
+}
+
+.fa-whatsapp{
+    color: rgb(6, 177, 120);
+}
